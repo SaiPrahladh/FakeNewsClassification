@@ -7,3 +7,11 @@ For our fake data set we are using data from Kaggle and included several feature
 
 ## Usage:
 Run the data scrapper notebook to get the data for the authentic news data and combine it to form the complete dataset for training the Naive Bayes model in the fake_news_classification.ipynb and also the Logistic Regression and Random forest algorithms in the Implemenation_LogisticRegression_RandomForrest.ipynb
+
+
+## Performance Comparison:
+| Model                  | Test Accuracy(%) |
+|------------------------|------------------|
+| Naive Bayes Classifier | 79.83            |
+| Random Forests         | 88.88            |
+| Logistic Regression    | 88.68            |
