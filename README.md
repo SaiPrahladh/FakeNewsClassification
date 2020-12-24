@@ -4,3 +4,6 @@ The problem we were working on is the classification of an article as fake news 
 ## Data Collection :
 We have considered reputed a sources like the New York Times  and the Guardian as the sources of our real dataset . We have used their API’s to extract data from the 2016 news cycle.
 For our fake data set we are using data from Kaggle and included several features. This data was collected using the webhose.io API which collected data from 244 websites.
+
+## Usage:
+Run the data scrapper notebook to get the data for the authentic news data and combine it to form the complete dataset for training the Naive Bayes model in the fake_news_classification.ipynb and also the Logistic Regression and Random forest algorithms in the Implemenation_LogisticRegression_RandomForrest.ipynb
